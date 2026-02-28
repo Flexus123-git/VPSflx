@@ -1,31 +1,24 @@
 # VPSflx
-# My Personal VPS VPN Project 🚀
+# Deploying a Personal VPN on a VPS using Xray (VLESS + Reality)
 
-This repository contains a step-by-step guide to set up a personal VPN on a VPS using **WireGuard**.  
-The goal is to understand Linux networking, firewall configuration, and secure tunneling.
+This is a step-by-step guide for setting up a VPN server on a VPS using Xray (VLESS + Reality).
 
----
+This setup can be useful in environments where most common VPN protocols are blocked.
 
-## 📌 1. Introduction
-
-Setting up your own VPN server helps you:
-
-- Secure your internet connection
-- Access your home network remotely
-- Learn server and network administration
+⚠ This guide does not advertise or promote any VPS provider.
 
 ---
 
-## 🖥 2. Prerequisites
+## 📋 Requirements
 
-- VPS (Ubuntu 22.04 recommended)
-- Root or sudo access
-- Basic knowledge of Linux commands
+### 1️⃣ Rent a VPS
 
----
+To deploy your VPN server, you need to rent a Virtual Private Server (VPS).
 
-## ⚙ 3. Installing WireGuard
+Popular VPS providers include:
 
-```bash
-sudo apt update
-sudo apt install wireguard -y
+- DigitalOcean
+- Hip-hosting
+- Timeweb
+
+A VPS with **2 GB RAM** is sufficient for a personal VPN server.
