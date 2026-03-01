@@ -72,8 +72,7 @@ These commands:
 
 To install the 3x-ui dashboard, run the official installation script by MHSanaei:
 
-```bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
-```
+`bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)`
 
 During installation, you will see this question:
 
@@ -85,9 +84,8 @@ For example: Username: <generated_username>
              Password: <generated_password>
              Port: 40608
              WebBasePath: <generated_path>
-
-             Access URL:
-            http://<server_ip>:40608/<web_base_path>
+			 URL: https://ip:port/webpath
+	
 			
 
 
