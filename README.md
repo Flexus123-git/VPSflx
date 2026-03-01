@@ -21,4 +21,31 @@ Popular VPS providers:
 - Hip-hosting
 - Timeweb
 
-A VPS with **2 GB RAM** is enough for a personal VPN server.
+### VPS Requirements
+
+- A VPS with **2 GB RAM** is ehough for a personal VPN server.
+- Choose **Ubuntu 24.04 LTS** or higher as your VPS server system.
+- After renting the server, you will get:
+  - Server IP address (e.g., 139.213.12.21)
+  - Login (usually `root`)
+  - Password
+
+---
+
+## 🖥 Step 2 — Connecting to the Server via SSH
+
+To manage your VPS, you need an SSH client
+
+You can use the standart terminal on Windows or macOS, but a third-party SSH client is more available
+
+I recommend using Termius (free for non-commercial use)
+
+### Connecting with Termius
+
+1. Click **"New Host"**
+2. Enter your server IP address from your VPS server dashboard
+3. Enter your username from dashboard
+4. Enter your password from dashboard
+5. default SSH port - **22**
+
+Then click **Connect**.
