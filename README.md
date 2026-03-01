@@ -56,7 +56,7 @@ Then click **Connect**.
 
 ### 1️⃣ Update the System
 
-Before installing any software, it is recommended to update the system packages:
+Before installing the panel, you should to update the system packages:
 
 ```bash
 sudo apt-get update -y
@@ -66,5 +66,31 @@ sudo apt-get upgrade -y
 These commands:
 	•	Check for available package updates
 	•	Upgrade installed packages to the latest versions
+
+### 2 3x-ui installation
+
+
+To install the 3x-ui dashboard, run the official installation script by MHSanaei:
+
+```bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+```
+
+During installation, you will see this question:
+
+**Would you like to customize the Panel Port settings?**
+Answer:**n** for easy installation (Default settings are convenient for most of users)
+
+After the installation completes, the script will generate panel informations:
+For example: Username: <generated_username>
+             Password: <generated_password>
+             Port: 40608
+             WebBasePath: <generated_path>
+
+             Access URL:
+            http://<server_ip>:40608/<web_base_path>
+			
+
+
+
 
 
