@@ -60,7 +60,8 @@ Before installing any software, it is recommended to update the system packages:
 
 ```bash
 sudo apt-get update -y
-sudo apt-get upgrade -y```
+sudo apt-get upgrade -y
+```
 
 These commands:
 	•	Check for available package updates
