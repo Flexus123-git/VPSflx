@@ -49,3 +49,15 @@ I recommend using Termius (free for non-commercial use)
 5. default SSH port - **22**
 
 Then click **Connect**.
+
+---
+
+## ⚙ Step 3 — System Update and 3x-ui Installation
+
+### 1️⃣ Update the System
+
+Before installing any software, it is recommended to update the system packages:
+
+```bash
+sudo apt-get update -y
+sudo apt-get upgrade -y
