@@ -52,37 +52,30 @@ Then click **Connect**.
 
 ---
 
-# ⚙️ Step 3 — System Update and 3x-ui Installation
+# ⚙️ Step 3 — System Update and 3x-ui Installation:
 
 ## 1️⃣ Update the System
 
-Before installing the panel, update your system packages:
+Before installing the 3x-ui dashboard, you should update your system packages:
 
 ```bash
 sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
 
-### 🔎 What These Commands Do
+### 🔎 These commands:
 
-- `apt-get update` — checks for available package updates  
-- `apt-get upgrade` — upgrades installed packages to the latest versions  
-
-Keeping your system updated helps prevent compatibility and security issues.
+checks for available package updates and upgrades installed packages to the latest versions  
 
 ---
 
 ## 2️⃣ Install 3x-ui
 
-To install the **3x-ui** dashboard, run the official installation script by **MHSanaei**:
+To install the **3x-ui** dashboard, copy in terminal the official installation script by MHSanaei:
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
-
----
-
-### ❓ Installation Prompt
 
 During installation, you will see:
 
@@ -90,31 +83,30 @@ During installation, you will see:
 Would you like to customize the Panel Port settings?
 ```
 
-For a quick and easy setup, type:
+For a quick and convenient setup, type:
 
 ```bash
 n
 ```
 
-(Default settings are suitable for most users.)
-
 ---
 
 ## 🔐 After Installation
 
-Once installation is complete, the script will generate your panel credentials.
+After installation, you will receive data from the panel
 
-Example output:
+Example:
 
 ```
-Username: <generated_username>
-Password: <generated_password>
-Port: 40608
-WebBasePath: <generated_path>
+Username: <randeom_username>
+Password: <random_password>
+Port: 45434
+WebBasePath: <random_path>
 URL: https://ip:port/webpath
 ```
 
-⚠️ **Important:** Save this information securely — you will need it to access the panel.
+⚠️ **Important:** Save this information — you need it to get access the panel.
+
 	
 			
 
