@@ -52,39 +52,69 @@ Then click **Connect**.
 
 ---
 
-## ⚙ Step 3 — System Update and 3x-ui Installation
+# ⚙️ Step 3 — System Update and 3x-ui Installation
 
-### 1️⃣ Update the System
+## 1️⃣ Update the System
 
-Before installing the panel, you should to update the system packages:
+Before installing the panel, update your system packages:
 
 ```bash
 sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
 
-These commands:
-	•	Check for available package updates
-	•	Upgrade installed packages to the latest versions
+### 🔎 What These Commands Do
 
-### 2 3x-ui installation
+- `apt-get update` — checks for available package updates  
+- `apt-get upgrade` — upgrades installed packages to the latest versions  
 
+Keeping your system updated helps prevent compatibility and security issues.
 
-To install the 3x-ui dashboard, run the official installation script by MHSanaei:
+---
 
-`bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)`
+## 2️⃣ Install 3x-ui
 
-During installation, you will see this question:
+To install the **3x-ui** dashboard, run the official installation script by **MHSanaei**:
 
-**Would you like to customize the Panel Port settings?**
-Answer:**n** for easy installation (Default settings are convenient for most of users)
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+```
 
-After the installation completes, the script will generate panel informations:
-For example: Username: <generated_username>
-             Password: <generated_password>
-             Port: 40608
-             WebBasePath: <generated_path>
-			 URL: https://ip:port/webpath
+---
+
+### ❓ Installation Prompt
+
+During installation, you will see:
+
+```
+Would you like to customize the Panel Port settings?
+```
+
+For a quick and easy setup, type:
+
+```bash
+n
+```
+
+(Default settings are suitable for most users.)
+
+---
+
+## 🔐 After Installation
+
+Once installation is complete, the script will generate your panel credentials.
+
+Example output:
+
+```
+Username: <generated_username>
+Password: <generated_password>
+Port: 40608
+WebBasePath: <generated_path>
+URL: https://ip:port/webpath
+```
+
+⚠️ **Important:** Save this information securely — you will need it to access the panel.
 	
 			
 
