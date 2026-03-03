@@ -1,5 +1,5 @@
 # VPSflx
-# Deploying a Personal VPN on a VPS using Xray (VLESS + Reality)
+# Deploying a Personal VPN on a VPS using Xray (VLESS + Reality)🔍
 
 This is a step by step guide for setting up a VPN server on a VPS using Xray (VLESS + Reality).
 
@@ -9,7 +9,7 @@ This setup can be useful in countrys where most popular VPN protocols blocked.
 
 ---
 
-## 📋 Requirements
+## 📝 Requirements
 
 ### 1️⃣ Rent a VPS
 
@@ -32,7 +32,7 @@ Popular VPS providers:
 
 ---
 
-## 🖥 Step 2 — Connecting to the Server via SSH
+## 📟 Step 2 — Connecting to the Server via SSH
 
 To manage your VPS, you need an SSH client
 
@@ -52,7 +52,7 @@ Then click **Connect**.
 
 ---
 
-# ⚙️ Step 3 — System Update and 3x-ui Installation:
+# 🛎 Step 3 — System Update and 3x-ui Installation:
 
 ## 1️⃣ Update the System
 
@@ -63,7 +63,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
 
-### 🔎 These commands:
+### 📩 These commands:
 
 checks for available package updates and upgrades installed packages to the latest versions  
 
@@ -91,7 +91,7 @@ n
 
 ---
 
-## 🔐 After Installation
+## 💾 After Installation
 
 After installation, you will receive data from the panel
 
@@ -105,9 +105,9 @@ WebBasePath: <random_path>
 URL: https://ip:port/webpath
 ```
 
-⚠️ **Important:** Save this information — you need it to get access the panel.
+❗️❗️❗️ **Important:** Save this information — you need it to get access the panel. ❗️❗️❗️
 
-## 🚀 Step 4: Inbound Creation
+## 🚪 Step 4: Inbound Creation
 
 After installing **3x-ui**, you need to create an inbound for connection.
 
@@ -136,7 +136,7 @@ Then:
 
 ---
 
-## 📱 Client Applications
+## 💻 Client Applications
 
 You can connest by qr or Export All URLs from your inbound.
 You can connect using this apps:
@@ -152,7 +152,7 @@ You can connect using this apps:
 - **NekoBox**
 ---
 
-## 🔐 Security Tips
+## 🗄 Security Tips
 
 - Always use port `443`
 - Choose a popular and trusted domain for SNI
@@ -162,7 +162,7 @@ You can connect using this apps:
   
 ---
 
-Your server is now ready to use 🚀
+Your server is now ready to use 🔋
 
 	
 			
