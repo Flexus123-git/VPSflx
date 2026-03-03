@@ -5,7 +5,7 @@ This is a step by step guide for setting up a VPN server on a VPS using Xray (VL
 
 This setup can be useful in countrys where most popular VPN protocols blocked.
 
-⚠ This guide doesn't advertise any VPS platforms.
+📌 This guide doesn't advertise any VPS platforms.
 
 ---
 
