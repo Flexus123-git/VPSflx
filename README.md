@@ -107,6 +107,63 @@ URL: https://ip:port/webpath
 
 ⚠️ **Important:** Save this information — you need it to get access the panel.
 
+## 🚀 Step 4: Inbound Creation
+
+After installing **3x-ui**, you need to create an inbound for connection.
+
+First step, copy the URL you got after installation and paste it into any browser.  
+Log in using your **username** and **password**.
+
+After you are inside the panel, go to:
+
+**Inbound → Add Inbound**
+
+Fill in the fields this information:
+
+- **Remark:** (Any name you like)  
+- **Listen IP:** Your server IP  
+- **Port:** `443`  
+- **Security:** `Reality`  
+- **Client Flow:** `xtls-rprx-vision-udp443`  
+- **Target / SNI:** Any website that is **not blocked in your country**
+
+Then:
+
+1. Click **Get New Cert**
+2. Click **Create**
+
+✅ Your inbound is now created.
+
+---
+
+## 📱 Client Applications
+
+You can connect using this apps:
+
+### Android / iOS
+- **V2Ray**
+- **Hiddify**
+
+### macOS
+- **V2Ray** (recommended)
+
+### Windows
+- **NekoBox**
+ You can connest by qr or Export All URLs from your inbound
+---
+
+## 🔐 Security Tips
+
+- Always use port `443`
+- Choose a popular and trusted domain for SNI
+- Keep your panel credentials private
+- Disable unused inbounds
+- Regularly update your 3x-ui panel
+  
+---
+
+Your server is now ready to use 🚀
+
 	
 			
 
