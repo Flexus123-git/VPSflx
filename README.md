@@ -138,6 +138,7 @@ Then:
 
 ## 📱 Client Applications
 
+You can connest by qr or Export All URLs from your inbound.
 You can connect using this apps:
 
 ### Android / iOS
@@ -149,7 +150,6 @@ You can connect using this apps:
 
 ### Windows
 - **NekoBox**
- You can connest by qr or Export All URLs from your inbound
 ---
 
 ## 🔐 Security Tips
